@@ -47,6 +47,15 @@ endfunction
 set nocompatible
 filetype off
 
+"设置编码
+set fileencodings=utf-8,ucs-bom,gb18030,gbk,gb2312,cp936
+
+"设置tab长度为4空格
+set tabstop=4
+"设置自动缩进长度为4空格
+set shiftwidth=4
+
+
 set rtp+=$VIM\vimfiles\bundle\Vundle.vim\
 call vundle#begin('$VIM\vimfiles\bundle\')
 "let Vundle manage Vundle, required
