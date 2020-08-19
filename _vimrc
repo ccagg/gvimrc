@@ -74,6 +74,8 @@ iab xtime <c-r>=strftime("%Y-%m-%d  %H:%M:%S")
 iab xdate <c-r>=strftime("%Y-%m-%d")
 
 "按键映射
+nnoremap ; :
+
 nnoremap <leader>q :q<CR>
 nnoremap <leader>w :w<CR>
 cnoremap <C-a> <Home>
