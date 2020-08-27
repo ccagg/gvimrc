@@ -54,6 +54,8 @@ set fileencodings=utf-8,ucs-bom,gb18030,gbk,gb2312,cp936
 set tabstop=4
 "设置自动缩进长度为4空格
 set shiftwidth=4
+"设置行间距
+set linespace=11
 
 
 set rtp+=$VIM\vimfiles\bundle\Vundle.vim\
