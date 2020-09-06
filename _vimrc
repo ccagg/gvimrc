@@ -44,7 +44,7 @@ endfunction
 set nocompatible
 filetype off
 
-“设置错误不响铃
+"设置错误不响铃
 set noerrorbells
 "设置编码
 set fileencodings=utf-8,ucs-bom,gb18030,gbk,gb2312,cp936
