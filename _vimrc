@@ -44,6 +44,9 @@ endfunction
 set nocompatible
 filetype off
 
+"python设置，vim version中python/dyn的dyn代表可以动态加载python.dll
+set pythonthreedll=python38.dll
+
 "设置错误不响铃
 set noerrorbells
 "设置编码
@@ -65,6 +68,15 @@ Plugin 'scrooloose/nerdtree'
 Plugin 'plasticboy/vim-markdown'
 Plugin 'vim-airline/vim-airline'
 Plugin 'tpope/vim-fugitive'
+Plugin 'jceb/vim-orgmode'
+Plugin 'vim-scripts/utl.vim'
+Plugin 'tpope/vim-repeat'
+Plugin 'yegappan/taglist'
+Plugin 'majutsushi/tagbar'
+Plugin 'tpope/vim-speeddating'
+Plugin 'chrisbra/NrrwRgn'
+Plugin 'mattn/calendar-vim'
+Plugin 'inkarkat/vim-SyntaxRange'
 "my bundle plugin
  
 call vundle#end()
